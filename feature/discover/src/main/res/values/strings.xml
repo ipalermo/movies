@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="done">Done</string>
+    <string name="discover_loading">Loading…</string>
+    <string name="navigate_up">Navigate up</string>
+    <string name="top_app_bar_title">Movies</string>
+
+</resources>
