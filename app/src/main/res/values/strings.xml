@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Movies</string>
     <string name="not_connected">No internet connection</string>
+    <string name="settings">Settings</string>
 </resources>
