@@ -10,7 +10,7 @@ The `demo` flavor uses static local data to allow immediate building and explori
 
 **Movies** allows users to discover new movie releases from
 [TMDB Api](https://api.themoviedb.org/4/). 
-Users can see the full movie description and details tapping on .
+Users can see the full movie description and details tapping on a movie item.
 
 ## Screenshots
 
