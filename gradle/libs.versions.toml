@@ -16,6 +16,7 @@ androidxLifecycle = "2.6.0-alpha03"
 androidxMacroBenchmark = "1.1.1"
 androidxNavigation = "2.5.3"
 androidxMetrics = "1.0.0-alpha03"
+androidxPaging = "3.1.1"
 androidxProfileinstaller = "1.2.0"
 androidxStartup = "1.1.1"
 androidxWindowManager = "1.0.0"
@@ -78,6 +79,9 @@ androidx-lifecycle-viewModelCompose = { group = "androidx.lifecycle", name = "li
 androidx-metrics = { group = "androidx.metrics", name = "metrics-performance", version.ref = "androidxMetrics" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
 androidx-navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "androidxNavigation" }
+androidx-paging-common = { module = "androidx.paging:paging-common-ktx", version.ref = "androidxPaging" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidxPaging" }
+androidx-paging-compose = "androidx.paging:paging-compose:1.0.0-alpha17"
 androidx-profileinstaller = { group = "androidx.profileinstaller", name = "profileinstaller", version.ref = "androidxProfileinstaller" }
 androidx-startup = { group = "androidx.startup", name = "startup-runtime", version.ref = "androidxStartup" }
 androidx-window-manager = {module = "androidx.window:window", version.ref = "androidxWindowManager"}
@@ -114,6 +118,7 @@ retrofit-kotlin-serialization = { group = "com.jakewharton.retrofit", name = "re
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
