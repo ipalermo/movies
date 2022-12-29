@@ -48,6 +48,18 @@ android {
 }
 
 dependencies {
+
+    implementation(project(":feature:discover"))
+    implementation(project(":feature:movie"))
+
+    implementation(project(":core:common"))
+    implementation(project(":core:ui"))
+    implementation(project(":core:designsystem"))
+    implementation(project(":core:data"))
+    implementation(project(":core:model"))
+
+    androidTestImplementation(project(":core:testing"))
+    androidTestImplementation(project(":core:network"))
     androidTestImplementation(libs.androidx.navigation.testing)
     androidTestImplementation(kotlin("test"))
     debugImplementation(libs.androidx.compose.ui.testManifest)
@@ -67,7 +79,6 @@ dependencies {
     implementation(libs.androidx.profileinstaller)
 
     implementation(libs.coil.kt)
-    implementation(libs.coil.kt.svg)
 }
 
 // androidx.test is forcing JUnit, 4.12. This forces it to use 4.13
